@@ -1,0 +1,12 @@
+# 训练数据集配置
+# 目录结构：
+# datasets/apple/
+#   images/{train,val}/*.jpg
+#   labels/{train,val}/*.txt   # YOLO 格式：class cx cy w h（归一化）
+
+path: datasets/apple
+train: images/train
+val: images/val
+
+names:
+  0: apple
