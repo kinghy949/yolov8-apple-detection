@@ -15,6 +15,14 @@ weights/
 *.onnx
 *.engine
 
+# 测试用样张（本地用，不入库）
+samples/
+
+# 结题报告（含个人信息，不入库）
+report/
+Jietu*.mp4
+源码.zip
+
 # IDE / OS
 .idea/
 .vscode/
